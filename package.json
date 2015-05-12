@@ -1,0 +1,20 @@
+{
+  "name": "table",
+  "version": "1.0.0",
+  "description": "Software to be run on Edison  micorocontroller",
+  "main": "src/main.js",
+  "engines" : {
+    "node" : ">=0.10.0"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:garysmi2/Edison-Wifi-Config.git"
+  },
+  "author": "Gary Smith",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "node-discover": "0.0.17"
+  }
+}
